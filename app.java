@@ -1,6 +1,7 @@
 package org.Codewars;
 
 import org.Codewars.kyu7.ListFiltering;
+import org.Codewars.kyy8.RentalCarCost;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,6 +17,6 @@ public class app {
         int a[] = {3,4,3,1,4};
 //        System.out.println(Arrays.toString(BeginnerLostWithoutAMap.map(a)));
 
-        System.out.println(ListFiltering.filterList(list));
+        System.out.println(RentalCarCost.rentalCarCost(10));
     }
 }
