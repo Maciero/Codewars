@@ -1,13 +1,21 @@
 package org.Codewars;
 
-import org.Codewars.kyu5.PigLatin;
+import org.Codewars.kyu7.ListFiltering;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class app {
     public static void main(String[] args) {
 
+        List<Object> list = new ArrayList<>();
+        list.add("a");
+        list.add(3);
+        list.add(4);
+        list.add(5);
         int a[] = {3,4,3,1,4};
 //        System.out.println(Arrays.toString(BeginnerLostWithoutAMap.map(a)));
 
-        System.out.println(PigLatin.pigIt("Hello world !"));
+        System.out.println(ListFiltering.filterList(list));
     }
 }
