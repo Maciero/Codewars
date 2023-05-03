@@ -1,5 +1,6 @@
 package org.Codewars;
 
+import org.Codewars.kyu6.Persist;
 import org.Codewars.kyu7.ListFiltering;
 import org.Codewars.kyy8.RentalCarCost;
 
@@ -17,6 +18,6 @@ public class app {
         int a[] = {3,4,3,1,4};
 //        System.out.println(Arrays.toString(BeginnerLostWithoutAMap.map(a)));
 
-        System.out.println(RentalCarCost.rentalCarCost(10));
+        System.out.println(Persist.persistence(4 ));
     }
 }
