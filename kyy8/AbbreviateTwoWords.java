@@ -6,6 +6,7 @@ public class AbbreviateTwoWords {
 
         StringBuilder initials = new StringBuilder();
 
+        
         String[] words = name.split(" ");
 
         for (String i : words) {
